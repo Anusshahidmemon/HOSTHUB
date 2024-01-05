@@ -166,8 +166,8 @@ font-size: 36px;
         /* border-right:2px solid rgba(128, 128, 128, 0.357); */
      /* padding-left: 50px; */
     
-   height: 70vh;
-  
+   /* height: ;
+   */
       }
   
       #pricing-card:hover{
@@ -283,5 +283,101 @@ color: #f0e5e5;
     background-color: #EC9D5F;
     color: white;
 }
+.latest-post .card:hover .card-title{
+    color: #6247EA;
+}
+/* cleint logo */
+.client-logo{
+    margin-top: 100px;
+    background-color: #fafcff;
+    padding: 100px 0px;
+}
+.carousel-control-prev{
+    background-color: #e17f34;
+    width: 4%;
+    opacity: 1.5;
+    height: 80%;
+}
+.carousel-control-prev:hover{
+    background-color: #6247EA;
+    transition: 0.3s ease-in-out;
+}
+.carousel-control-next{
+    background-color: #e17f34;
+    width: 4%;
+    opacity: 1.5;
+    height: 80%;
+}
+@media(max-width:767px){
+    .carousel-control-next{
+        width: 8%;
+    }
+    .carousel-control-prev{
+        width: 8%;
+    }
+}
 
+.carousel-control-next:hover{
+    background-color: #6247EA;
+    transition: 0.3s ease-in-out;
+}
+.carousel-item img{
+    opacity: 0.5;
+}
+.carousel-item img:hover{
+    opacity: 1;
+}
+/* footer */
+footer{
+    background-color: #04094e;
+   
+}
+footer p{
+    color: white;
+    font-size: 14px;
+}
+footer .head-para{
+    font-size: 20px;
+    font-weight: bold;
+}
 
+footer a{
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none !important;
+}
+footer input{
+   
+    border-radius: 50px !important; 
+}
+footer input:focus{
+
+ box-shadow: none !important;
+}
+footer .inp-btn button{
+    border-radius: 50px;
+    background-color: #6247EA;
+    border-color: 1px solid transparent!important;
+    color: white;
+    font-size: 14px;
+}
+footer button:hover{
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #6247EA !important;
+    color: white !important;
+}
+
+.icon-sec i{
+    font-size: 18px;
+   
+}
+.icon-sec div{
+    background-color: rgba(0, 0, 0, 0.407);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.icon-sec div:hover{
+    background-color: #6247EA;
+}
